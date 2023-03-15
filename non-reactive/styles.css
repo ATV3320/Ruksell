@@ -1,0 +1,9 @@
+body{
+    /* background-image: radial-gradient(rgba(209, 176, 46, 0.9) 50%, rgba(227, 121, 14, 0) 25%, rgb(210, 6, 40, 0.6) 25%); */
+    background-color: antiquewhite;
+    opacity: 0.8;
+}
+
+h1{
+    background: pink;
+}
