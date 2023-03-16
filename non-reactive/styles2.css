@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    background-color: darkgoldenrod;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/30/15/12/apocalypse-2273069_960_720.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1632176875162-f37f817f164f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1913&q=80");
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
