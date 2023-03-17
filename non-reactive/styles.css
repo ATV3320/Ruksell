@@ -1,10 +1,22 @@
 
 body{
     /* background-image: radial-gradient(rgba(209, 176, 46, 0.9) 50%, rgba(227, 121, 14, 0) 25%, rgb(210, 6, 40, 0.6) 25%); */
-    background-color: antiquewhite;
+    background-image: linear-gradient(rgba(0,0,255,0.5), rgba(255, 0, 255, 0.6));
     opacity: 0.8;
 }
 
 h1{
     background: pink;
 }
+table, thead, tbody, tr, th, td {
+    border: 1px solid blue;
+}
+
+#imp{
+    color: white;
+    background-color: rgb(169, 156, 181);
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
