@@ -19,3 +19,5 @@ Step 5:
 
 For using the storj, create an account of storj, get your API key, and other credentials, 
 #Learned doing it with the help of CLI, now trying to transform it for the frontend.
+
+First file uploaded at: https://link.storjshare.io/s/jwilutcuwsywrmgw3eg423k6dx6a/dgallery/panda1.jpg
