@@ -21,3 +21,5 @@ For using the storj, create an account of storj, get your API key, and other cre
 #Learned doing it with the help of CLI, now trying to transform it for the frontend.
 
 First file uploaded at: https://link.storjshare.io/s/jwilutcuwsywrmgw3eg423k6dx6a/dgallery/panda1.jpg
+
+Inside the gallery.js, instead of using the static images, I'm now using an array of image urls, let's try to shift to data fetched from the blockchain.
