@@ -1,0 +1,53 @@
+.imgGallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+}
+.imgGallery .pics{
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: 1s ease-in-out;
+    -webkit-transition: all 1s ease;
+    cursor: pointer;
+}
+.imgGallery .pics:hover{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+/* commented is almost vanilla image, I'm using the blurry ones right now. */
+/* 
+.imgGallery .pics {
+  -webkit-transition: all 2000ms ease;
+  cursor: pointer;
+  transition: all 2000ms ease;
+  border: 5px solid rgb(8, 24, 146);
+}
+.imgGallery .pics:hover{
+    filter: opacity(0.8);
+    transform: scale(0.75);
+    border: 2px dashed rgb(8, 24, 146);
+} */
+
+@media (max-width: 991px) {
+  .imgGallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 441px) {
+  .imgGallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
