@@ -1,5 +1,6 @@
 import "./style/App.css";
 import Gallery from "./Gallery";
+import { Interact } from "./interact";
 import { connectWallet } from "./connectWallet";
 // var Web3 = require("web3");
 
@@ -16,6 +17,7 @@ function App() {
         Hover over the images to unblur them :p
       </p>
       <Gallery />
+      <Interact />
     </>
   );
 }
