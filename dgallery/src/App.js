@@ -1,6 +1,6 @@
 import "./style/App.css";
 import Gallery from "./Gallery";
-import { Interact } from "./interact";
+import { Interact } from "./Interact";
 import { connectWallet } from "./connectWallet";
 // var Web3 = require("web3");
 

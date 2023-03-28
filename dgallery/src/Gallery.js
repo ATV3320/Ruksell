@@ -31,7 +31,7 @@ export default class Gallery extends Component {
         {imageList.map((item, index)=>{
           return(
             <div className='pics' key={index}>
-              <img src={item} alt="fuck you" style={{width:'100%'}}/>
+              <img src={item} alt="nomij4u" style={{width:'100%'}}/>
             </div>
           )
         })}
