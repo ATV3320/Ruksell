@@ -8,7 +8,7 @@ const contractAddress = "0xc7e618bc9fbb97f8ef143ada36f4b8472b7a5f48";
 export const Interact = () => {
   
   const [owner1, setOwner1] = useState("");
-  console.log(owner1,"owner1")
+  // console.log(owner1,"owner1")
   const {ethereum} = window;
   // let Web3 = new web3(ethereum)
 
@@ -26,7 +26,7 @@ export const Interact = () => {
   // web3.eth.defaultAccount = web3.eth.accounts[0];
 
   
-  console.log(owner1);
+  // console.log(owner1);
   // async function renderName(){
   //   let name1 = contract.owner();
   //   console.log(name1,"name1")
