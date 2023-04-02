@@ -1,0 +1,1 @@
+the given frontend won't work with this contract, the contract is for ERC20, and frontend for the minting of NFTs; I did deploy the contract on zkevm polygon however.
